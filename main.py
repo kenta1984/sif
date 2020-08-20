@@ -8,7 +8,7 @@ from util import normalize_text, get_vector_from_text
 
 if __name__ == '__main__':
     # Set MeCab and load the Word2vec model
-    mt = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd/ -Owakati')
+    mt = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd/ -Owakati') # 適宜変更
     wv = KeyedVectors.load_word2vec_format('./vecs/wiki.vec.pt', binary=True)
 
     # Load the sif data
