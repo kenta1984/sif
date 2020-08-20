@@ -5,3 +5,7 @@
 
 # How to use?
 Just run the below command.
+
+```
+python main.py
+```
